@@ -1,0 +1,22 @@
+# Hugging Face ZeroGPU & Gradio 6.32+ Cloud Sync Core
+spaces
+huggingface_hub>=1.16.0,<3.0.0
+pydantic>=2.10.0,<3.0.0
+requests
+cryptography
+
+# Mathematical, Perceptual Oklab & Bio-Optical Vision Engine (NumPy 1.x & 2.x clean)
+numpy>=1.26.0,<3.0.0
+Pillow>=10.0.0,<14.0.0
+opencv-python-headless
+
+# V10 Cloud-Native BRIA AI RMBG-2.0 + SegFormer-B2 + CatVTON + CodeFormer & 4x-UltraSharp Hub
+transformers>=5.0.0
+diffusers>=0.38.0
+accelerate>=1.2.0
+safetensors>=0.4.5
+timm>=1.0.15
+kornia>=0.7.4
+spandrel
+spandrel_extra_arches
+onnxruntime

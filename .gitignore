@@ -1,0 +1,20 @@
+# Environment & Secrets (NEVER commit tokens or credentials)
+.env
+.env.*
+!.env.example
+
+# Local Runtime & Customer Data
+shop_data/
+tests/test photos/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Model Checkpoints (Strictly 0 MB in Git / Local PC)
+*.onnx
+*.pth
+*.pt
+*.safetensors
+*.ckpt
+*.bin
